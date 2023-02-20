@@ -13,10 +13,11 @@
     <section class="container">
         <form>
             <i class="fa-brands fa-searchengin"></i>
-            <input type="text" name="" id="search-item" placeholder="Search Video Games">
+            <input type="text" name="" id="search-item" placeholder="Search Video Games"
+            onkeyup="search()">
         </form>
 
-        <div class="games-list">
+        <div class="games-list" id="games-list">
             
             <div class="games">
                 <img src="img\Borderlands_2_cover_art.png" alt="Borderlands 2">
@@ -77,6 +78,6 @@
             </div>
         </div>
     </section>
-    <script src="app.js"></script>
+    <script src="app.jsx"></script>
 </body>
 </html>
